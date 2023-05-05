@@ -8,7 +8,7 @@ function App() {
       <Routes>
         <Route path = "/">{<LandingPage/>}</Route>
         <Route path = "/tournament">{<TournamentPage/>}</Route>
-
+          <h1>Hello</h1>
       </Routes>
     </BrowserRouter>
   )
