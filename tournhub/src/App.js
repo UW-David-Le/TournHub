@@ -1,4 +1,5 @@
 import './App.css';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import LandingPage from './pages/LandingPage/LandingPage';
 import TournamentPage from './pages/TournamentPage/TournamentPage';
 
