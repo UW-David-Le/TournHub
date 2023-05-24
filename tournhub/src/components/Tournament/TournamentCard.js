@@ -1,4 +1,3 @@
-import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import image from "../../assets/tourn1.jpg";
 // import { FaBeer } from 'react-icons/fa'; // <FaBeer />
@@ -6,12 +5,18 @@ import { FaRegCalendar } from 'react-icons/fa';
 import { AiOutlineClockCircle } from 'react-icons/ai'
 import { GrLocation } from 'react-icons/gr'
 import eventData from './eventData';
+import Button from '../Button/Button';
+
+
+const handleClick = () => {
+    console.log('Button clicked!')
+}
 
 
 function TournamentCard() {
 
     const eData = eventData.events;
-
+ 
     return (
         <div className='w-75'>
             <Card className="border border-dark w-25" style={{ width: '18rem' }}>
@@ -27,7 +32,7 @@ function TournamentCard() {
                     </Card.Text>
                     <hr />
                     {eData[0].organizer}
-                    <Button className="btn float-end" variant="primary">Sign Up!</Button>
+                    <Button label='Register' className='float-end' onClick={handleClick} />
                 </Card.Body>
             </Card>
         </div>

@@ -4,6 +4,7 @@ import { ReactDOM } from 'react';
 import LandingPage from './pages/LandingPage/LandingPage';
 import TournamentPage from './pages/TournamentPage/TournamentPage';
 import TournamentCard from './components/Tournament/TournamentCard';
+import Header from './components/Header/Header';
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
     //   </Routes>
     // </BrowserRouter>
     
-    <div className='p-5'>
+    <div className=''>
       <TournamentCard />
     </div>
     
