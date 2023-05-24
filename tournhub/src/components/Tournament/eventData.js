@@ -11,7 +11,8 @@ const eventData = {
             thumbnail: "../../tourn1.jpg",
             capacity: "13/24",
             organizer: "YYZAthletics",
-            startTime: "9:00AM EST"
+            startTime: "9:00AM EST",
+            status: "Available"
         },
         {
             title: "Co-ed 4:2 All Nighter Volleyball Tournament",
@@ -21,7 +22,8 @@ const eventData = {
             thumbnail: "../../tourn2.jpg",
             capacity: "19/24",
             organizer: "YYZAthletics",
-            startTime: "10:30PM EST"
+            startTime: "10:30PM EST",
+            status: "Started"
         },
         {
             title: "Mens 6's Volleyball Tournament",
@@ -31,7 +33,8 @@ const eventData = {
             thumbnail: "../../tourn3.jpg",
             capacity: "19/24",
             organizer: "MJenVb",
-            startTime: "1:00PM EST"
+            startTime: "1:00PM EST",
+            status: "Ended"
         }
     ]
 }
