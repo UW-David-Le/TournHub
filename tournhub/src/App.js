@@ -5,6 +5,8 @@ import LandingPage from './pages/LandingPage/LandingPage';
 import TournamentPage from './pages/TournamentPage/TournamentPage';
 import TournamentCard from './components/Tournament/TournamentCard';
 import Header from './components/Header/Header';
+import SocialMedia from './components/Footer/SocialMedia';
+import NavigationBar from './components/Navigation/Navbar';
 
 function App() {
   return (
@@ -17,7 +19,7 @@ function App() {
     // </BrowserRouter>
     
     <div className=''>
-      <TournamentCard />
+      <NavigationBar />
     </div>
     
   )
